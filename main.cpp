@@ -1,5 +1,3 @@
-// const std::string API_KEY = "AIzaSyCoD4mJoZR2vli1nYc3kemuLfu_E3VY1Gc";
-
 #include "main.h"
 
 int main() {
