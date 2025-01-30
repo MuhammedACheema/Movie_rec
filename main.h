@@ -4,57 +4,7 @@
 #include <vector>
 #include <algorithm>
 #include <sstream>
-#include <curl/curl.h> // Install libcurl to use this
-
-// // Replace with your actual Gemini API key
-
-// // URL for Google Generative Language API
-// const std::string API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=" + API_KEY;
-
-// // Callback function to capture response data
-// static size_t WriteCallback(void *contents, size_t size, size_t nmemb, std::string *output) {
-//     size_t total_size = size * nmemb;
-//     output->append((char *)contents, total_size);
-//     return total_size;
-// }
-
-// // Function to send a request to the Gemini API
-// std::string sendRequest(const std::string &prompt) {
-//     CURL *curl;
-//     CURLcode res;
-//     std::string response_data;
-
-//     curl_global_init(CURL_GLOBAL_ALL);
-//     curl = curl_easy_init();
-
-//     if (curl) {
-//         std::string json_payload = R"({
-//             "contents": [{"parts": [{"text": ")" + prompt + R"("}]}]
-//         })";
-
-//         struct curl_slist *headers = NULL;
-//         headers = curl_slist_append(headers, "Content-Type: application/json");
-
-//         curl_easy_setopt(curl, CURLOPT_URL, API_URL.c_str());
-//         curl_easy_setopt(curl, CURLOPT_HTTPHEADER, headers);
-//         curl_easy_setopt(curl, CURLOPT_POST, 1);
-//         curl_easy_setopt(curl, CURLOPT_POSTFIELDS, json_payload.c_str());
-//         curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, WriteCallback);
-//         curl_easy_setopt(curl, CURLOPT_WRITEDATA, &response_data);
-
-//         res = curl_easy_perform(curl);
-
-//         if (res != CURLE_OK) {
-//             std::cerr << "Request failed: " << curl_easy_strerror(res) << std::endl;
-//         }
-
-//         curl_slist_free_all(headers);
-//         curl_easy_cleanup(curl);
-//     }
-
-//     curl_global_cleanup();
-//     return response_data;
-// }
+#include <curl/curl.h> 
 
 class Movie {
     public:
@@ -74,6 +24,7 @@ class Watched{
     public:
 
     std::vector <Movie> watched;
+    std::vector <int> movie_id;
 
     void add_movie(Movie movie){
         if (movie.rating > 100){
@@ -90,6 +41,10 @@ class Watched{
             return a.rating < b.rating;
         });
     }  
+
+    void searchMovies(){
+        
+    }
 
     void getRecs(){
         for (size_t i = 0; i < watched.size(); i++){

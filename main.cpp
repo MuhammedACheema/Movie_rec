@@ -1,18 +1,17 @@
 #include "main.h"
 
 int main() {
-    Watched myMovies;
+    Watched userMovies;
+    std::string movieName;
 
-    // Add movies
-    myMovies.add_movie(Movie("Inception", "Sci-Fi", 95));
-    myMovies.add_movie(Movie("The Godfather", "Crime", 98));
-    myMovies.add_movie(Movie("The Dark Knight", "Action", 92));
+    std::cout << "Enter a movie name to search: ";
+    std::getline(std::cin, movieName);
 
-    // Sort movies by rating
-    myMovies.sortMovies();
+    int movieID = userMovies.searchMovies(movieName);
 
-    // Get AI recommendations
-    myMovies.getRecs();
+    if (movieID != -1) {
+        userMovies.getRecs(movieID);
+    }
 
     return 0;
 }
