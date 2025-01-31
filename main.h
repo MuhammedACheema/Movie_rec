@@ -92,11 +92,11 @@ class Watched{
 
 
 
-
+    // and count most
     void count_most() {
         if (watched.empty()) {
             std::cout << "No movies in watchlist.\n";
-            most_watched_genre = "None";  // ✅ Prevent empty genre
+            most_watched_genre = "None";  
             return;
         }
 
@@ -140,7 +140,7 @@ class Watched{
         });
     }  
 
-
+    // implemented get recs
     void getRecs() {
         if (most_watched_genre.empty() || most_watched_genre == "None") {
             std::cout << "No watched genre found. Add more movies first!\n";
