@@ -1,0 +1,116 @@
+title,genre,rating,release_year
+Inception,Sci-Fi,8.8,2010
+Interstellar,Sci-Fi,8.6,2014
+The Dark Knight,Action,9.0,2008
+The Matrix,Sci-Fi,8.7,1999
+Pulp Fiction,Crime,8.9,1994
+The Godfather,Crime,9.2,1972
+The Shawshank Redemption,Drama,9.3,1994
+Fight Club,Drama,8.8,1999
+The Lord of the Rings: The Return of the King,Fantasy,8.9,2003
+The Dark Knight Rises,Action,8.4,2012
+The Lord of the Rings: The Fellowship of the Ring,Fantasy,8.8,2001
+The Lord of the Rings: The Two Towers,Fantasy,8.7,2002
+Forrest Gump,Drama,8.8,1994
+The Green Mile,Drama,8.6,1999
+The Lion King,Animation,8.5,1994
+Se7en,Crime,8.6,1995
+Schindler's List,Drama,9.0,1993
+Leon: The Professional,Action,8.5,1994
+American History X,Drama,8.5,1998
+The Pursuit of Happyness,Drama,8.0,2006
+Iron Man 3,Action,7.1,2013
+Avengers: Infinity War,Action,8.4,2018
+Avatar,Sci-Fi,7.8,2009
+Godzilla vs. Kong,Action,6.4,2021
+The Fifth Element,Sci-Fi,7.7,1997
+Donnie Darko,Drama,8.0,2001
+Pirates of the Caribbean: The Curse of the Black Pearl,Adventure,8.0,2003
+The Departed,Crime,8.5,2006
+The Hangover,Comedy,7.7,2009
+Blade Runner 2049,Sci-Fi,8.0,2017
+The Prestige,Drama,8.5,2006
+Whiplash,Drama,8.5,2014
+Star Wars: A New Hope,Sci-Fi,8.6,1977
+The Empire Strikes Back,Sci-Fi,8.7,1980
+Return of the Jedi,Sci-Fi,8.3,1983
+Harry Potter and the Philosopher's Stone,Fantasy,7.6,2001
+Harry Potter and the Chamber of Secrets,Fantasy,7.4,2002
+Harry Potter and the Prisoner of Azkaban,Fantasy,7.9,2004
+Harry Potter and the Goblet of Fire,Fantasy,7.7,2005
+Harry Potter and the Order of the Phoenix,Fantasy,7.5,2007
+Harry Potter and the Half-Blood Prince,Fantasy,7.6,2009
+The Grand Budapest Hotel,Comedy,8.1,2014
+The Godfather Part II,Crime,9.0,1974
+The Shining,Horror,8.4,1980
+Parasite,Drama,8.5,2019
+The Social Network,Drama,7.7,2010
+The Avengers,Action,8.0,2012
+Avengers: Age of Ultron,Action,7.3,2015
+Avengers: Endgame,Action,8.4,2019
+Spider-Man: No Way Home,Action,8.3,2021
+Star Wars: The Force Awakens,Sci-Fi,7.8,2015
+Guardians of the Galaxy,Action,8.0,2014
+Finding Nemo,Animation,8.1,2003
+Luca,Animation,7.5,2021
+Lilo & Stitch,Animation,7.6,2002
+Encanto,Animation,7.2,2021
+Dune,Sci-Fi,8.2,2021
+The Truman Show,Drama,8.1,1998
+A Beautiful Mind,Biography,8.2,2001
+The Wolf of Wall Street,Comedy,8.2,2013
+Joker,Drama,8.4,2019
+Deadpool,Action,8.0,2016
+Mad Max: Fury Road,Action,8.1,2015
+Black Panther,Action,7.3,2018
+Doctor Strange,Sci-Fi,7.5,2016
+Thor: Ragnarok,Action,7.9,2017
+The Silence of the Lambs,Thriller,8.6,1991
+No Country for Old Men,Crime,8.1,2007
+Inglourious Basterds,Action,8.3,2009
+Reservoir Dogs,Crime,8.3,1992
+The Hateful Eight,Western,7.8,2015
+Once Upon a Time in Hollywood,Comedy,7.6,2019
+The Irishman,Crime,7.9,2019
+The Revenant,Drama,8.0,2015
+Shutter Island,Thriller,8.2,2010
+The Big Short,Drama,7.8,2015
+Interstellar,Sci-Fi,8.6,2014
+The Pianist,Biography,8.5,2002
+Requiem for a Dream,Drama,8.3,2000
+Life of Pi,Adventure,7.9,2012
+The Shape of Water,Fantasy,7.3,2017
+Her,Romance,8.0,2013
+Eternal Sunshine of the Spotless Mind,Romance,8.3,2004
+The Notebook,Romance,7.8,2004
+Titanic,Romance,7.9,1997
+La La Land,Musical,8.0,2016
+Whisper of the Heart,Animation,7.9,1995
+Spirited Away,Animation,8.6,2001
+My Neighbor Totoro,Animation,8.2,1988
+Princess Mononoke,Animation,8.4,1997
+Howl's Moving Castle,Animation,8.2,2004
+The Wind Rises,Animation,7.7,2013
+The Boy and the Heron,Animation,7.8,2023
+Ratatouille,Animation,8.0,2007
+WALL-E,Animation,8.4,2008
+Inside Out,Animation,8.1,2015
+Coco,Animation,8.4,2017
+Up,Animation,8.3,2009
+Toy Story,Animation,8.3,1995
+Toy Story 3,Animation,8.3,2010
+The Incredibles,Animation,8.0,2004
+Zootopia,Animation,8.0,2016
+Monsters, Inc.,Animation,8.1,2001
+Beauty and the Beast,Animation,8.0,1991
+Aladdin,Animation,8.0,1992
+Mulan,Animation,7.6,1998
+Frozen,Animation,7.4,2013
+The Nightmare Before Christmas,Animation,8.0,1993
+Coraline,Animation,7.7,2009
+Cloud Atlas,Sci-Fi,7.4,2012
+Children of Men,Sci-Fi,7.9,2006
+The Martian,Sci-Fi,8.0,2015
+Gravity,Sci-Fi,7.7,2013
+Looper,Sci-Fi,7.4,2012
+Edge of Tomorrow,Sci-Fi,7.9,2014
